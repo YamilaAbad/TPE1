@@ -37,9 +37,7 @@ public class Pedido {
     public void setCostoTotal(double costoTotal) {
         this.costoTotal = costoTotal;
     }
-    public void nosirve(double costoTotal){
 
-    }
 
 
 }
