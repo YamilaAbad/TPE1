@@ -1,6 +1,4 @@
-package Comida;
-
-import java.time.LocalTime;
+package comida;
 
 public class Comida {
     private String nombre;
@@ -43,4 +41,8 @@ public class Comida {
         return calorias;
     }
 
+    @Override
+    public String toString() {
+        return "Nombre del plato: " + nombre + "," + " precio unitario: $" + precio + "\n";
+    }
 }

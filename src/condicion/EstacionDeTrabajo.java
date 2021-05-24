@@ -1,6 +1,6 @@
-package Condicion;
+package condicion;
 
-import Comida.Comida;
+import comida.Comida;
 
 public interface EstacionDeTrabajo {
    boolean cumple(Comida comida);
